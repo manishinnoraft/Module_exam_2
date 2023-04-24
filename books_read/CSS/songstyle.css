@@ -1,0 +1,60 @@
+.songcard{
+    background-color: pink;
+    padding: 1rem;
+    height: max-content;
+    width: max-content;
+    margin-top: 1rem;
+  }
+  .songcard p{
+    background-color: rgb(196, 118, 235);
+    padding: 5px;
+    width: max-content;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+  }
+ 
+.music_add_section {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+
+.music_add_section input,select
+ {
+  padding: 10px;
+  margin-bottom: 1rem 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.music_add_section input[type=submit] {
+  margin-top: 1rem;
+  padding: 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.music_add_section label{
+  margin: 1rem 0;
+}
+
+.music_add_section input[type=submit]:hover {
+  background-color: #3e8e41;
+}
